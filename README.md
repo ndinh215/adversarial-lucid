@@ -1,5 +1,3 @@
-<img src="https://storage.googleapis.com/lucid-static/common/stickers/channels-visualizations.jpg" width="782"></img>
-
 # Lucid
 
 <!--*DeepDream, but sane. Home of cats, dreams, and interpretable neural networks.*-->
@@ -18,6 +16,7 @@ network interpretability.
 
 If you'd like to use lucid in colab which defaults to tensorflow 2, add this magic to a cell before you import tensorflow:
 
+```!pip install tensorflow==1.15```
 ```%tensorflow_version 1.x```
 
 **Lucid is research code, not production code. We provide no guarantee it will work for your use case. Lucid is maintained by volunteers who are unable to provide significant technical support.**
